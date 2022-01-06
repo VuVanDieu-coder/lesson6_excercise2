@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính điểm đại học</title>
+</head>
+<body>
+    <h3><b>Tính điểm đại học khối D</b></h3>
+        <p>Môn Toán</p>
+        <input type="number" max="10" min="0" id="num_math">
+        <p>Môn Văn</p>
+        <input type="number" max="10" min="0" id="num_novel">
+        <p>Môn Anh</p>
+        <input type="number" max="10" min="0" id="num_eng">
+        <p>Khu vực</p>
+        <select name="" id="area">
+            <option value="KV1">Khu vực 1</option>
+            <option value="KV2">Khu vực 2</option>
+            <option value="KV2-NT">Khu vực 2-NT</option>
+            <option value="KV3">Khu vực 3</option>
+        </select>
+    <button type="submit" onclick="math_blockD()">Tính điểm</button>
+    <br>
+    <div id="result"></div>
+</body>
+</html>
+<script src="math.js"></script>
